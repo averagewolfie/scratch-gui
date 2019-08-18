@@ -411,7 +411,7 @@ const control = function (isStage) {
             </value>
             <value name="FALSE">
                 <shadow type="text">
-                    <field name="TEXT">1</field>
+                    <field name="TEXT">0</field>
                 </shadow>
             </value>
         </block>
@@ -622,6 +622,19 @@ const operators = function () {
         <block type="operator_and"/>
         <block type="operator_or"/>
         <block type="operator_not"/>
+        ${blockSeparator}
+        <block type="operator_if_else">
+            <value name="TRUE">
+                <shadow type="text">
+                    <field name="TEXT">1</field>
+                </shadow>
+            </value>
+            <value name="FALSE">
+                <shadow type="text">
+                    <field name="TEXT">0</field>
+                </shadow>
+            </value>
+        </block>
         ${blockSeparator}
         <block type="operator_join">
             <value name="STRING1">
