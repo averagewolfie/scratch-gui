@@ -637,24 +637,24 @@ const operators = function () {
         <block type="operator_index_of">
             <value name="SUBST">
                 <shadow type="text">
-                    <field name="TEXT">${apple}</field>
+                    <field name="TEXT">${letter}</field>
                 </shadow>
             </value>
             <value name="STRING">
                 <shadow type="text">
-                    <field name="TEXT">${letter}</field>
+                    <field name="TEXT">${apple}</field>
                 </shadow>
             </value>
         </block>
         <block type="operator_index_to">
             <value name="SUBST">
                 <shadow type="text">
-                    <field name="TEXT">${apple}</field>
+                    <field name="TEXT">${letter}</field>
                 </shadow>
             </value>
             <value name="STRING">
                 <shadow type="text">
-                    <field name="TEXT">${letter}</field>
+                    <field name="TEXT">${apple}</field>
                 </shadow>
             </value>
         </block>
