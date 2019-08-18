@@ -634,6 +634,18 @@ const operators = function () {
                 </shadow>
             </value>
         </block>
+        <block type="operator_index_of">
+            <value name="SUBST">
+                <shadow type="text">
+                    <field name="TEXT">${apple}</field>
+                </shadow>
+            </value>
+            <value name="STRING">
+                <shadow type="text">
+                    <field name="TEXT">${letter}</field>
+                </shadow>
+            </value>
+        </block>
         <block type="operator_length">
             <value name="STRING">
                 <shadow type="text">
