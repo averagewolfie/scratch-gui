@@ -403,19 +403,6 @@ const control = function (isStage) {
         ${blockSeparator}
         <block type="control_if"/>
         <block type="control_if_else"/>
-        <block type="control_if_else_rep">
-            <value name="TRUE">
-                <shadow type="text">
-                    <field name="TEXT">1</field>
-                </shadow>
-            </value>
-            <value name="FALSE">
-                <shadow type="text">
-                    <field name="TEXT">0</field>
-                </shadow>
-            </value>
-        </block>
-        ${blockSeparator}
         <block id="wait_until" type="control_wait_until"/>
         <block id="repeat_until" type="control_repeat_until"/>
         ${blockSeparator}
@@ -623,19 +610,6 @@ const operators = function () {
         <block type="operator_or"/>
         <block type="operator_not"/>
         ${blockSeparator}
-        <block type="operator_if_else">
-            <value name="TRUE">
-                <shadow type="text">
-                    <field name="TEXT">1</field>
-                </shadow>
-            </value>
-            <value name="FALSE">
-                <shadow type="text">
-                    <field name="TEXT">0</field>
-                </shadow>
-            </value>
-        </block>
-        ${blockSeparator}
         <block type="operator_join">
             <value name="STRING1">
                 <shadow type="text">
@@ -661,6 +635,18 @@ const operators = function () {
             </value>
         </block>
         <block type="operator_index_of">
+            <value name="SUBST">
+                <shadow type="text">
+                    <field name="TEXT">${apple}</field>
+                </shadow>
+            </value>
+            <value name="STRING">
+                <shadow type="text">
+                    <field name="TEXT">${letter}</field>
+                </shadow>
+            </value>
+        </block>
+        <block type="operator_ifelse">
             <value name="SUBST">
                 <shadow type="text">
                     <field name="TEXT">${apple}</field>
