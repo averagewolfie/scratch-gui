@@ -403,7 +403,18 @@ const control = function (isStage) {
         ${blockSeparator}
         <block type="control_if"/>
         <block type="control_if_else"/>
-        <block id="if_else_rep" type="control_if_else_rep"/>
+        <block type="control_if_else_rep">
+            <value name="TRUE">
+                <shadow type="text">
+                    <field name="TEXT">1</field>
+                </shadow>
+            </value>
+            <value name="FALSE">
+                <shadow type="text">
+                    <field name="TEXT">1</field>
+                </shadow>
+            </value>
+        </block>
         ${blockSeparator}
         <block id="wait_until" type="control_wait_until"/>
         <block id="repeat_until" type="control_repeat_until"/>
