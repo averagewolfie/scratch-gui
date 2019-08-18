@@ -403,7 +403,7 @@ const control = function (isStage) {
         ${blockSeparator}
         <block type="control_if"/>
         <block type="control_if_else"/>
-        <block type="control_if_else_rep"/>
+        <block id="if_else_rep" type="control_if_else_rep"/>
         ${blockSeparator}
         <block id="wait_until" type="control_wait_until"/>
         <block id="repeat_until" type="control_repeat_until"/>
