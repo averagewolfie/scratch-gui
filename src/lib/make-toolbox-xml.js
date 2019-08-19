@@ -666,6 +666,13 @@ const operators = function () {
                 </shadow>
             </value>
         </block>
+        <block type="operator_casesense">
+            <value name="STRING">
+                <shadow type="text">
+                    <field name="TEXT">${apple}</field>
+                </shadow>
+            </value>
+        </block>
         <block type="operator_contains" id="operator_contains">
           <value name="STRING1">
             <shadow type="text">
